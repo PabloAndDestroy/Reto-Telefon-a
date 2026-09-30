@@ -1,0 +1,4 @@
+number,calls_24h,complaints,label_observed
++15550000001,86,0,spam_likely
++15550000002,22,0,clean
++15550000003,104,0,spam_likely

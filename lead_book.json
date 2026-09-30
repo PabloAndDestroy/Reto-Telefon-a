@@ -1,0 +1,26 @@
+[
+  {
+    "id": "L101",
+    "name": "Alex Demo",
+    "phone": "+15551110001",
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "L102",
+    "name": "Jamie Demo",
+    "phone": "+15551110002",
+    "timezone": "America/Chicago"
+  },
+  {
+    "id": "L201",
+    "name": "Taylor One",
+    "phone": "+15552220000",
+    "timezone": "America/New_York"
+  },
+  {
+    "id": "L202",
+    "name": "Taylor Two",
+    "phone": "+15552220000",
+    "timezone": "America/New_York"
+  }
+]

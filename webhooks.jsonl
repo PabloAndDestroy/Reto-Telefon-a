@@ -1,0 +1,10 @@
+{"seq": 1, "ts": "13:00:00.100Z", "event": "agent_leg.answered", "call_control_id": "A-1", "from": "+15550000001"}
+{"seq": 2, "ts": "13:00:02.000Z", "event": "client_leg.initiated", "call_control_id": "C-101", "client_id": "L101", "to": "+15551110001"}
+{"seq": 4, "ts": "13:00:05.000Z", "event": "client_leg.answered", "call_control_id": "C-101"}
+{"seq": 3, "ts": "13:00:04.900Z", "event": "client_leg.answered", "call_control_id": "C-101", "duplicate": true}
+{"seq": 5, "ts": "13:02:10.000Z", "event": "client_leg.hangup", "call_control_id": "C-101"}
+{"seq": 6, "ts": "13:02:11.000Z", "event": "process.restart", "snapshot_age_seconds": 1.7}
+{"seq": 7, "ts": "13:02:15.000Z", "event": "client_leg.initiated", "call_control_id": "C-102", "client_id": "L102", "to": "+15551110002"}
+{"seq": 8, "ts": "13:02:16.000Z", "event": "sip.failure", "call_control_id": "C-102", "code": 603, "message": "Decline"}
+{"seq": 9, "ts": "13:03:00.000Z", "event": "inbound.ringing", "call_control_id": "I-201", "from": "+15552220000"}
+{"seq": 10, "ts": "13:03:01.000Z", "event": "lookup.result", "phone": "+15552220000", "matches": ["L201", "L202"]}
